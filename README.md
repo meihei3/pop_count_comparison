@@ -33,3 +33,20 @@
 ### file
 - [pop_count_lut8.v](pop_count_lut8.v)
 - [pop_count_lut8_tb.v](pop_count_lut8_tb.v)
+
+## Method 3
+### 説明
+Cookbookに書いてあるやり方。6bitでLUTを使ってるっぽい。
+
+### 結果
+|name|value|
+|:-:|:-:|
+|Fmax|199.48MHz|
+|data delay|5.374ns|
+
+### RTL
+![method3_rtl](rtl_img/method3.jpg)
+
+### file
+- [thirtysix_six_comp.v](thirtysix_six_comp.v)
+- [thirtysix_six_comp_tb.v](thirtysix_six_comp.v)
