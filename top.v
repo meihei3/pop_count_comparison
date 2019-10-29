@@ -19,6 +19,7 @@ end
 assign out = tmp_out_reg;
 // --------------------------------------------------
 
-pop_count_no_scheme popcnt(tmp_in, tmp_out);
+// pop_count_no_scheme popcnt (tmp_in, tmp_out);
+pop_count_lut8      popcnt (tmp_in, tmp_out);
 
 endmodule
